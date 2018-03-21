@@ -10,8 +10,8 @@ export class UsersComponent implements OnInit {
   ) {	}
 
 	ngOnInit() {
-		this._service.getUsers().subscribe((users: any[]) => this.users = users);
-	}
+    this._service.getUsers().subscribe((users: any[]) => this.users = users);
+  }
 
   deleteUser(user) {
 		if (confirm(`Are you sure you want to delete ${user.name}?`)) {

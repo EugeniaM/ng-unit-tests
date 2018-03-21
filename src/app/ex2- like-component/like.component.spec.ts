@@ -1,6 +1,6 @@
 import { LikeComponent } from './like.component';
 
-describe('LikeComponent', () => {
+xdescribe('LikeComponent', () => {
 
     beforeEach(() => {
     });

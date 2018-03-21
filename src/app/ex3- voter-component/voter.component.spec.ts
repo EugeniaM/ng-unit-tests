@@ -1,6 +1,6 @@
 import { VoterComponent } from './voter.component';
 
-describe('VoterComponent', () => {
+xdescribe('VoterComponent', () => {
 
     beforeEach(() => {
     });
@@ -19,7 +19,7 @@ describe('VoterComponent', () => {
       });
 
       it('should raise an event', () => {
-      })
+      });
 
       it('should NOT raise an event if I have already submitted a positive vote', () => {
       });
@@ -33,7 +33,7 @@ describe('VoterComponent', () => {
       });
 
       it('should raise an event', () => {
-      })
+      });
 
       it('should NOT raise an event if I have already submitted a negative vote', () => {
       });
